@@ -1,0 +1,215 @@
+body
+{
+	background-color: #fff9f4;
+}
+
+@media only screen and (max-height:750px) AND (max-width:600px) 
+{
+	.fixed-header h1
+	{
+		font-size:120%;
+	}
+	
+	.fixed-header h2
+	{
+	    font-size:85%;
+	}
+	
+	.fixed-header
+	{
+		width:100%;
+	}
+	
+	.fixed-header .btn-header
+	{
+		width:100%;
+		height:50%;
+		vertical-align: middle;
+	}
+	
+	.animation-fade-in
+	{
+	    opacity:1;
+	}
+}
+
+.carousel-item 
+{
+  height: 80vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: auto;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.loader
+{
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background: url('5.gif') 50% 50% no-repeat rgb(249,249,249);
+    opacity: 0.95;
+}
+	
+.map
+{
+	height:100%;
+	width:100%;
+}
+
+                 
+.fixed-header
+{
+	 position: absolute;
+     top: 0;
+     right: 0;
+     bottom: 0;
+     left: 0;
+	 padding: 2%;
+     margin: auto;
+
+     width: 50%;
+     height: 35%;
+	 z-index:1;	
+	 background-color: rgba(42, 42, 42, 0.4);
+}
+
+.fixed-header h1 
+{
+	color: white;
+	text-align: center;
+}
+
+
+.fixed-header h2 
+{
+	color: white;
+	text-align: center;
+}
+   
+
+
+.carousel-caption 
+{
+	background-color: rgba(96, 41, 1, 0.2);
+	
+}
+
+.btn-header
+{
+	position: relative;
+	display: flex;
+     top: 0;
+     right: 0;
+     bottom: 0;
+     left: 0;
+     margin: auto;
+    background-color: #602901;
+    display: flex;
+	align-items: center;
+    justify-content: center;
+    color: white;
+    border: none;
+	width: 30%;
+	height:40%;
+}
+
+.btn-text
+{
+	top: 0;
+     right: 0;
+     bottom: 0;
+     left: 0;
+     margin: auto;
+	
+
+}
+
+.btn-header a
+{
+	color: white;
+}
+
+.btn-header a:hover
+{
+	text-decoration: none;
+}
+
+.animation-fade-in
+{
+	opacity:0;
+}
+h1
+{
+	color: #602901;
+}
+
+h2
+{
+	color: #602901;
+}
+
+
+#button-text
+{
+	color: white;
+	padding: 10%;
+	text-align: center; 	
+}
+
+#button-text:hover
+{
+	text-decoration: none;
+	color: red;
+}
+
+.btn-brown
+{
+	background-color:#602901;
+	border: 1px solid #2e1300;
+}
+
+.btn-brown:hover
+{
+	background-color:#9f4300;
+	border: 1px solid #2e1300;
+}
+
+.footer-brown
+{
+	background-color: #2e1300;
+	width:100%;
+}
+
+.icon
+{
+	float:left;
+	display: inline;
+	margin-top:10px;
+	margin-left: 10px;
+}
+.top-header
+{
+	float:left;
+}
+
+.return-home
+{
+	font-size: 16pt;
+	color: #602901;
+}
+
+.return-home:hover
+{
+	color: #9f4300;
+}
+
+.card .text-white .bg-secondary .my-4 .text-center
+{
+	background-color: #9f4300;
+}
